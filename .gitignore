@@ -2,6 +2,18 @@
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
+public class Welcome 
+{
+  public static void main (String[] args)
+  {
+    String[] greeting=new String[3];
+    greeting[0]="Welcome to Java";
+    greeting[1]="by Helloying233";
+    greeting[2]="in 2016 11 6";
+    for(String g:greeting)
+    System.out.println(g);
+  }
+}
 
 # Package Files #
 *.jar
